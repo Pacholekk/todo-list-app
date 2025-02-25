@@ -9,11 +9,7 @@ interface TodoItemProps {
 
 const TodoItem: React.FC<TodoItemProps> = ({ todo, onToggle, onDelete }) => {
   return (
-    <div
-      className={`flex items-center p-3 borber-b ${
-        todo.completed ? "bg-gray-50" : ""
-      }`}
-    >
+    <div className={`flex items-center p-3 borber-b `}>
       <input
         type="checkbox"
         checked={todo.completed}
@@ -22,7 +18,7 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo, onToggle, onDelete }) => {
       />
       <span
         className={`ml-3 flex-grow ${
-          todo.completed ? "line-through text-gray-500" : "text-gray-800"
+          todo.completed ? "line-through text-red-500" : "text-gray-800"
         }`}
       >
         {todo.text}
