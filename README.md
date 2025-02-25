@@ -18,7 +18,7 @@ A simple, elegant task management application built with React, TypeScript and T
 - React 18
 - TypeScript
 - Tailwind CSS
-- localStorage for data persistence
+
 
 ## Getting Started
 
