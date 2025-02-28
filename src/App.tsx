@@ -36,13 +36,8 @@ function App() {
     return true;
   });
   return (
-    <div
-      className="min-h-screen w-full flex items-center justify-center"
-      style={{
-        background: "linear-gradient(135deg, #2a3590 0%, #bc5148 100%)",
-      }}
-    >
-      <div className="w-full max-w-2xl mx-auto p-8 bg-black bg-opacity-20 backdrop-blur-sm rounded-xl shadow-xl">
+    <div className="h-screen w-full flex flex-col items-center justify-center">
+      <div className="w-full max-w-2xl mx-auto p-8 bg-black bg-opacity-20 backdrop-blur-sm rounded-xl shadow-xl ">
         <h1 className="text-3xl font-bold mb-8 text-center text-white">
           Todo list
         </h1>
