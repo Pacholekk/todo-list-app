@@ -15,7 +15,7 @@ A simple, elegant task management application built with React, TypeScript and T
 
 ## Technologies Used
 
-- React 18
+- React 19
 - TypeScript
 - Tailwind CSS
 
